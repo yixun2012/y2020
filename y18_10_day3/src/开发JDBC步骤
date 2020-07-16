@@ -1,0 +1,13 @@
+开发JDBC程序的步骤：
+1创建java工程
+2向工程中加入jar包
+3编写、执行mysql的建数据库、建表的语句
+create database y18_4;
+use y18_4;
+create table stu(
+id int primary key auto_increment,
+username varchar(50),
+address varchar(200)
+);
+4编写代码
+
